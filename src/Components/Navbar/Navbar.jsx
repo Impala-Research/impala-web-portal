@@ -23,12 +23,10 @@ const useStyles = makeStyles(() => ({
   },
   links: {
     fontSize: "12px",
-    marginRight: "25px",
+    marginRight: "20px",
     color: "#777777",
   },
-  logo: {
-    marginLeft: "25px",
-  },
+
 }));
 
 export default function Navbar() {
@@ -40,7 +38,7 @@ export default function Navbar() {
         <CssBaseline />
         <AppBar position="static" className={classes.appBar}>
           <Toolbar>
-            <img className={classes.logo} src={logo} alt="logo" />
+            <img src={logo} alt="logo" />
             <Typography className={classes.title}></Typography>
             <Typography className={classes.links}>
               <Link className={classes.links} to="/Home">
