@@ -11,6 +11,7 @@ function App() {
         <Switch>
           <Route path="/">
             <Navbar />
+            
           </Route>
         </Switch>
       </Router>
