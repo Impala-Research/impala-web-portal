@@ -19,6 +19,7 @@ const useStyles = makeStyles((theme) => ({
     textAlign: "center",
     backgroundColor: "#F9F1E9",
     boxShadow: "none",
+   
   },
   button: {
     borderRadius: "18px",
@@ -26,7 +27,12 @@ const useStyles = makeStyles((theme) => ({
     color: "white",
   },
   p: {
+    fontSize:"1vw",
     color: "#777777",
+  },
+  h4: {
+    fontSize:"2vw",
+    
   },
 }));
 
@@ -41,7 +47,7 @@ export default function Home() {
         </Grid>
         <Grid item xs={7}>
           <Paper className={classes.paper}>
-            <Typography variant="h4" color="primary">
+            <Typography className={classes.h4} variant="h4" color="primary">
               It's time to understand your customer's behavior as never before
             </Typography>
           </Paper>
