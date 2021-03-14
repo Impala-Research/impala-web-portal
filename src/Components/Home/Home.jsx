@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 const useStyles = makeStyles((theme) => ({
   root: {
     backgroundColor: "#F9F1E9",
-    height: "43vw",
+    height: "90vh",
     display: "grid",
     justifyContent: "center",
     alignContent: "center",
