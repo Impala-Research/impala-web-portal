@@ -1,9 +1,9 @@
 import React from "react";
+import CssBaseline from "@material-ui/core/CssBaseline";
 import { makeStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
-import IconButton from "@material-ui/core/IconButton";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Home from "../Home/Home";
 import Team from "../Team/Team";
@@ -12,15 +12,23 @@ import Features from "../Features/Features";
 import PlansAndPricing from "../Plans-Pricing/Plans-Pricing";
 import Contact from "../Contact/Contact";
 import logo from "../../Assets/logoimage.png";
-import { red } from "@material-ui/core/colors";
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
+const useStyles = makeStyles(() => ({
+  appBar: {
     backgroundColor: "#F4E3D4",
+    padding: "15px",
   },
-
-  title: {},
+  title: {
+    flexGrow: 1,
+  },
+  links: {
+    fontSize: "12px",
+    marginRight: "25px",
+    color: "#777777",
+  },
+  logo: {
+    marginLeft: "25px",
+  },
 }));
 
 export default function Navbar() {
@@ -29,47 +37,30 @@ export default function Navbar() {
   return (
     <div>
       <Router>
-        <AppBar position="static"className={classes.root} >
+        <CssBaseline />
+        <AppBar position="static" className={classes.appBar}>
           <Toolbar>
-            <IconButton
-              edge="start"
-              className={classes.menuButton}
-              color="inherit"
-              aria-label="menu"
-            >
-              <img src={logo} alt="logo" className={classes.logo} />
-            </IconButton>
-            <Typography className={classes.title}>
-              <p>
-                {" "}
-                <Link to="/Home">Home</Link>
-              </p>
-            </Typography>
-            <Typography className={classes.title}>
-              <p>
-                <Link to="/Services">Services</Link>
-              </p>
-            </Typography>
-
-            <Typography className={classes.title}>
-              <p>
-                <Link to="/Features">Features</Link>
-              </p>
-            </Typography>
-            <Typography className={classes.title}>
-              <p>
-                <Link to="/Plans-Pricing">Plans-Pricing</Link>
-              </p>
-            </Typography>
-            <Typography className={classes.title}>
-              <p>
-                <Link to="/Team">Team</Link>
-              </p>
-            </Typography>
-            <Typography className={classes.title}>
-              <p>
-                <Link to="/Contact">Contact</Link>
-              </p>
+            <img className={classes.logo} src={logo} alt="logo" />
+            <Typography className={classes.title}></Typography>
+            <Typography className={classes.links}>
+              <Link className={classes.links} to="/Home">
+                Home
+              </Link>
+              <Link className={classes.links} to="/Services">
+                Services
+              </Link>
+              <Link className={classes.links} to="/Features">
+                Features
+              </Link>
+              <Link className={classes.links} to="/Plans-Pricing">
+                Plans-Pricing
+              </Link>
+              <Link className={classes.links} to="/Team">
+                Team
+              </Link>
+              <Link className={classes.links} to="/Contact">
+                Contact
+              </Link>
             </Typography>
           </Toolbar>
         </AppBar>
