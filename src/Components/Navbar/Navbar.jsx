@@ -5,13 +5,13 @@ import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import logo from "../../Assets/logoimage.png";
 import Home from "../Home/Home";
-import Team from "../Team/Team";
 import Services from "../Services/Services";
 import Features from "../Features/Features";
 import PlansAndPricing from "../Plans-Pricing/Plans-Pricing";
+import Team from "../Team/Team";
 import Contact from "../Contact/Contact";
-import logo from "../../Assets/logoimage.png";
 
 const useStyles = makeStyles(() => ({
   appBar: {
@@ -26,10 +26,9 @@ const useStyles = makeStyles(() => ({
     marginRight: "20px",
     color: "#777777",
   },
-
 }));
 
-export default function Navbar() {
+function Navbar() {
   const classes = useStyles();
 
   return (
@@ -63,7 +62,7 @@ export default function Navbar() {
           </Toolbar>
         </AppBar>
         <Switch>
-          <Route path="/Home">
+          <Route exact path="/Home">
             <Home />
           </Route>
           <Route path="/Services">
@@ -75,7 +74,7 @@ export default function Navbar() {
           <Route path="/Plans-Pricing">
             <PlansAndPricing />
           </Route>
-          <Route path="/Team">
+          <Route exact path="/Team">
             <Team />
           </Route>
           <Route path="/Contact">
@@ -86,3 +85,4 @@ export default function Navbar() {
     </div>
   );
 }
+export default Navbar;
