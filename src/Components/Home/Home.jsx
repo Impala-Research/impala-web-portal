@@ -38,7 +38,7 @@ export default function Home() {
         <Grid item xs>
           <Paper></Paper>
         </Grid>
-        <Grid item xs={7}>
+        <Grid item xs={12} sm={7} >
           <Paper className={classes.paper}>
             <Typography variant="h4" color="primary">
               It's time to understand your customer's behavior as never before
@@ -53,7 +53,7 @@ export default function Home() {
         <Grid item xs>
           <Paper></Paper>
         </Grid>
-        <Grid item xs={7}>
+        <Grid item xs={12} sm={7} >
           <Paper className={classes.paper}>
             <Typography className={classes.p}>
               <p>
