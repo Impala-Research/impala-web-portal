@@ -5,6 +5,7 @@ import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 import { Link } from "react-router-dom";
+import "./Home.css";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -19,21 +20,13 @@ const useStyles = makeStyles((theme) => ({
     textAlign: "center",
     backgroundColor: "#F9F1E9",
     boxShadow: "none",
-   
   },
   button: {
     borderRadius: "18px",
     backgroundColor: "#5C42BA",
     color: "white",
   },
-  p: {
-    fontSize:"1vw",
-    color: "#777777",
-  },
-  h4: {
-    fontSize:"2vw",
-    
-  },
+
 }));
 
 export default function Home() {
@@ -47,7 +40,7 @@ export default function Home() {
         </Grid>
         <Grid item xs={7}>
           <Paper className={classes.paper}>
-            <Typography className={classes.h4} variant="h4" color="primary">
+            <Typography variant="h4" color="primary">
               It's time to understand your customer's behavior as never before
             </Typography>
           </Paper>

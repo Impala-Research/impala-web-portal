@@ -1,0 +1,17 @@
+@media only screen and (max-width: 1200px) {
+  p {
+    font-size: 13px;
+  }
+  .MuiTypography-h4 {
+    font-size: 23px !important;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  p {
+    font-size: 10px;
+  }
+  .MuiTypography-h4 {
+    font-size: 18px !important;
+  }
+}
