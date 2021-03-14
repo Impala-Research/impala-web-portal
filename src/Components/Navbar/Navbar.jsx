@@ -40,7 +40,7 @@ function Navbar() {
             <img src={logo} alt="logo" />
             <Typography className={classes.title}></Typography>
             <Typography className={classes.links}>
-              <Link className={classes.links} to="/Home">
+              <Link className={classes.links} to="/">
                 Home
               </Link>
               <Link className={classes.links} to="/Services">
@@ -62,24 +62,12 @@ function Navbar() {
           </Toolbar>
         </AppBar>
         <Switch>
-          <Route exact path="/Home">
-            <Home />
-          </Route>
-          <Route path="/Services">
-            <Services />
-          </Route>
-          <Route path="/Features">
-            <Features />
-          </Route>
-          <Route path="/Plans-Pricing">
-            <PlansAndPricing />
-          </Route>
-          <Route exact path="/Team">
-            <Team />
-          </Route>
-          <Route path="/Contact">
-            <Contact />
-          </Route>
+          <Route exact path="/" component={Home} />
+          <Route path="/Services" component={Services} />
+          <Route path="/Features" component={Features} />
+          <Route path="/Plans-Pricing" component={PlansAndPricing} />
+          <Route path="/Team" component={Team} />
+          <Route path="/Contact" component={Contact} />
         </Switch>
       </Router>
     </div>
