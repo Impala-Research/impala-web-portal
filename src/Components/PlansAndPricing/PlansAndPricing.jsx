@@ -2,7 +2,7 @@ import React from 'react';
 
 const PlansAndPricing = (props) => {
     return (
-        <div className="Plans-Pricing">
+        <div className="PlansAndPricing">
              <p>I am Plans-Pricing component</p>
         </div>
     );
