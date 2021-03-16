@@ -1,5 +1,4 @@
 import React from "react";
-import CssBaseline from "@material-ui/core/CssBaseline";
 import { makeStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
@@ -9,7 +8,7 @@ import logo from "../../Assets/logoimage.png";
 const useStyles = makeStyles(() => ({
   appBar: {
     backgroundColor: "#F4E3D4",
-    padding: "15px",
+    padding: "10px",
   },
   title: {
     flexGrow: 1,
@@ -24,7 +23,6 @@ function Navbar() {
   const classes = useStyles();
   return (
     <div>
-      <CssBaseline />
       <AppBar position="static" className={classes.appBar}>
         <Toolbar>
           <img src={logo} alt="logo" />

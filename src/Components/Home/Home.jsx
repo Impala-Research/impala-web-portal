@@ -17,7 +17,6 @@ const useStyles = makeStyles((theme) => ({
   },
   paper: {
     padding: theme.spacing(2),
-    textAlign: "center",
     backgroundColor: "#F9F1E9",
     boxShadow: "none",
   },
@@ -26,7 +25,6 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: "#5C42BA",
     color: "white",
   },
-
 }));
 
 export default function Home() {
@@ -38,7 +36,7 @@ export default function Home() {
         <Grid item xs>
           <Paper></Paper>
         </Grid>
-        <Grid item xs={12} sm={7} >
+        <Grid item xs={12} sm={7}>
           <Paper className={classes.paper}>
             <Typography variant="h4" color="primary">
               It's time to understand your customer's behavior as never before
@@ -53,9 +51,9 @@ export default function Home() {
         <Grid item xs>
           <Paper></Paper>
         </Grid>
-        <Grid item xs={12} sm={7} >
+        <Grid item xs={12} sm={7}>
           <Paper className={classes.paper}>
-            <Typography className={classes.p}>
+            <Typography>
               <p>
                 Impala is the first neuromarketing DIY platform that enables you
                 to gain a deep understanding of human behavior. It provides you
