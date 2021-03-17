@@ -71,7 +71,7 @@ export default function Home() {
         <Grid item xs>
           <Paper></Paper>
         </Grid>
-        <Grid item xs={7}>
+        <Grid item xs={12}>
           <Paper className={classes.paper}>
             <Link className={classes.button} to="/Features">
               <Button variant="contained" className={classes.button}>

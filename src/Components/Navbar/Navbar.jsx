@@ -22,7 +22,7 @@ const useStyles = makeStyles(() => ({
 function Navbar() {
   const classes = useStyles();
   return (
-    <div>
+    <div className="Navbar">
       <AppBar position="static" className={classes.appBar}>
         <Toolbar>
           <img src={logo} alt="logo" />
@@ -38,7 +38,7 @@ function Navbar() {
               Features
             </Link>
             <Link className={classes.links} to="/Plans-Pricing">
-              Plans-Pricing
+              Plans And Pricing
             </Link>
             <Link className={classes.links} to="/Team">
               Team
