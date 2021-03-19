@@ -5,12 +5,13 @@ import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 import { Link } from "react-router-dom";
+import Section2 from "./Section2";
 import "./Home.css";
 
 const useStyles = makeStyles((theme) => ({
   root: {
     backgroundColor: "#F9F1E9",
-    height: "90vh",
+    height: "100vh",
     display: "grid",
     justifyContent: "center",
     alignContent: "center",
@@ -26,57 +27,60 @@ export default function Home() {
   const classes = useStyles();
 
   return (
-    <div className={classes.root}>
-      <Grid container>
-        <Grid item xs>
-          <Paper></Paper>
+    <div className="Home">
+      <div className={classes.root}>
+        <Grid container>
+          <Grid item xs={12} sm={2}>
+            <Paper></Paper>
+          </Grid>
+          <Grid item xs={12} sm={8}>
+            <Paper className={classes.paper}>
+              <Typography variant="h4" color="primary">
+                It's time to understand your customer's behavior as never before
+              </Typography>
+            </Paper>
+          </Grid>
+          <Grid item xs={12} sm={2}>
+            <Paper></Paper>
+          </Grid>
         </Grid>
-        <Grid item xs={12} sm={7}>
-          <Paper className={classes.paper}>
-            <Typography variant="h4" color="primary">
-              It's time to understand your customer's behavior as never before
-            </Typography>
-          </Paper>
+        <Grid container>
+          <Grid item xs={12} sm={2}>
+            <Paper></Paper>
+          </Grid>
+          <Grid item xs={12} sm={8}>
+            <Paper className={classes.paper}>
+              <Typography color="secondary">
+                <p>
+                  Impala is the first neuromarketing DIY platform that enables
+                  you to gain a deep understanding of human behavior. It
+                  provides you with out of the box data to take your marketing
+                  strategy to the next level.
+                </p>
+              </Typography>
+            </Paper>
+          </Grid>
+          <Grid item xs={12} sm={2}>
+            <Paper></Paper>
+          </Grid>
         </Grid>
-        <Grid item xs>
-          <Paper></Paper>
+        <Grid container>
+          <Grid item xs={12} sm={2}>
+            <Paper></Paper>
+          </Grid>
+          <Grid item xs={12} sm={8}>
+            <Paper className={classes.paper}>
+              <Link to="/Features">
+                <Button>Find out how</Button>
+              </Link>
+            </Paper>
+          </Grid>
+          <Grid item xs={12} sm={2}>
+            <Paper></Paper>
+          </Grid>
         </Grid>
-      </Grid>
-      <Grid container>
-        <Grid item xs>
-          <Paper></Paper>
-        </Grid>
-        <Grid item xs={12} sm={7}>
-          <Paper className={classes.paper}>
-            <Typography color="secondary">
-              <p>
-                Impala is the first neuromarketing DIY platform that enables you
-                to gain a deep understanding of human behavior. It provides you
-                with out of the box data to take your marketing strategy to the
-                next level.
-              </p>
-            </Typography>
-          </Paper>
-        </Grid>
-        <Grid item xs>
-          <Paper></Paper>
-        </Grid>
-      </Grid>
-      <Grid container>
-        <Grid item xs>
-          <Paper></Paper>
-        </Grid>
-        <Grid item xs={12}>
-          <Paper className={classes.paper}>
-            <Link to="/Features">
-              <Button>Find out how</Button>
-            </Link>
-          </Paper>
-        </Grid>
-        <Grid item xs>
-          <Paper></Paper>
-        </Grid>
-      </Grid>
+    </div>
+      <Section2 />
     </div>
   );
 }
