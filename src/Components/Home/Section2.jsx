@@ -31,15 +31,14 @@ const useStyles = makeStyles((theme) => ({
   },
   BtnColor: {
     backgroundColor: "#F4E3D4",
+   
   },
   fontSize: {
     fontSize: "20px",
   },
 }));
-
 const Section2 = (props) => {
   const classes = useStyles();
-
   return (
     <div className={classes.root}>
       <Grid container>
@@ -103,11 +102,10 @@ const Section2 = (props) => {
                 than they could ever understand themselves.
               </p>
               <Link to="/Services">
-              <Button href="/Services" className={classes.BtnColor}>
-                Services
-              </Button>
+                <Button href="/Services" className={classes.BtnColor}>
+                  Services
+                </Button>
               </Link>
-            
             </Typography>
           </Paper>
         </Grid>

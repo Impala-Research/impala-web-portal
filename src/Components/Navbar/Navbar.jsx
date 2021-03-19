@@ -19,7 +19,6 @@ const useStyles = makeStyles(() => ({
     color: "#707070",
   },
 }));
-
 function Navbar() {
   const classes = useStyles();
   return (

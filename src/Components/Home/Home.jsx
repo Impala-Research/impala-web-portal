@@ -78,7 +78,6 @@ export default function Home() {
           </Grid>
         </Grid>
       </div>
-
       <Section2 />
     </div>
   );
