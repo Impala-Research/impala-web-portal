@@ -19,13 +19,16 @@ const useStyles = makeStyles(() => ({
     color: "#707070",
   },
 }));
+
 function Navbar() {
   const classes = useStyles();
   return (
     <div className="Navbar">
       <AppBar position="static" className={classes.appBar}>
         <Toolbar>
-          <img src={logo} alt="logo" />
+          <Link to="/">
+            <img src={logo} alt="logo" />
+          </Link>
           <Typography className={classes.title}></Typography>
           <Typography className={classes.links}>
             <Link className={classes.links} to="/">

@@ -13,8 +13,8 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <Container disableGutters={true} maxWidth={false}>
-      <div className="App">
+    <div className="App">
+      <Container disableGutters={true} maxWidth={false}>
         <CssBaseline />
         <Router>
           <Navbar />
@@ -27,8 +27,8 @@ function App() {
             <Route path="/Contact" component={Contact} />
           </Switch>
         </Router>
-      </div>
-    </Container>
+      </Container>
+    </div>
   );
 }
 
