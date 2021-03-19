@@ -20,11 +20,6 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: "#F9F1E9",
     boxShadow: "none",
   },
-  button: {
-    borderRadius: "18px",
-    backgroundColor: "#5C42BA",
-    color: "white",
-  },
 }));
 
 export default function Home() {
@@ -53,7 +48,7 @@ export default function Home() {
         </Grid>
         <Grid item xs={12} sm={7}>
           <Paper className={classes.paper}>
-            <Typography>
+            <Typography color="secondary">
               <p>
                 Impala is the first neuromarketing DIY platform that enables you
                 to gain a deep understanding of human behavior. It provides you
@@ -73,10 +68,8 @@ export default function Home() {
         </Grid>
         <Grid item xs={12}>
           <Paper className={classes.paper}>
-            <Link className={classes.button} to="/Features">
-              <Button variant="contained" className={classes.button}>
-                Find out how
-              </Button>
+            <Link to="/Features">
+              <Button>Find out how</Button>
             </Link>
           </Paper>
         </Grid>

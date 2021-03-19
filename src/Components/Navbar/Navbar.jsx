@@ -16,7 +16,7 @@ const useStyles = makeStyles(() => ({
   links: {
     fontSize: "12px",
     marginRight: "20px",
-    color: "#777777",
+    color: "#707070",
   },
 }));
 function Navbar() {
@@ -25,9 +25,9 @@ function Navbar() {
     <div className="Navbar">
       <AppBar position="static" className={classes.appBar}>
         <Toolbar>
-          <img src={logo} alt="logo" />
+          <img  src={logo} alt="logo" />
           <Typography className={classes.title}></Typography>
-          <Typography className={classes.links}>
+          <Typography  className={classes.links}>
             <Link className={classes.links} to="/">
               Home
             </Link>
