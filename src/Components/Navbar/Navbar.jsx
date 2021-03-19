@@ -23,7 +23,7 @@ const useStyles = makeStyles(() => ({
 function Navbar() {
   const classes = useStyles();
   return (
-    <div className="Navbar">
+    <div className="Navbar1">
       <AppBar position="static" className={classes.appBar}>
         <Toolbar>
           <Link to="/">
