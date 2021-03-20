@@ -63,7 +63,6 @@ export default function Section3() {
                   combination of new implicit techniques which easily define
                   drivers for behavior.
                 </p>
-
                 <p>
                   {" "}
                   All this data is then immediately analyzed with advanced
