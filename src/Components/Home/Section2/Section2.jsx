@@ -3,14 +3,14 @@ import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
-import Impala from "../../Assets/Impala.png";
+import Impala from "../../../Assets/Impala.png";
 import { Button } from "@material-ui/core";
 import { Link } from "react-router-dom";
-import "./Home.css";
+import "../Home.css";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    padding: "150px 0px 150px 0px ",
+    padding: "100px 0px 50px 0px ",
     backgroundColor: "#ffffff",
     display: "grid",
     justifyContent: "center",
@@ -31,7 +31,6 @@ const useStyles = makeStyles((theme) => ({
   },
   BtnColor: {
     backgroundColor: "#F4E3D4",
-   
   },
   fontSize: {
     fontSize: "20px",
