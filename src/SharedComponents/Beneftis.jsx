@@ -1,33 +1,40 @@
 import React from "react";
 import Grid from "@material-ui/core/Grid";
-import "../Home.css";
 import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
+import { Typography } from "@material-ui/core";
+import Eye from "../Assets/Eye.png";
 const useStyles = makeStyles((theme) => ({
   root: {
-    padding: "280px 0px 280px 0px ",
+    padding: "60px 0px 10px 0px ",
     backgroundColor: "#F9F1E9",
   },
   paper: {
+    paddingTop: "60px",
     padding: theme.spacing(2),
     backgroundColor: "#F9F1E9",
     boxShadow: "none",
+    textAlign: "left",
   },
-  border: {
-    paddingTop: "90px",
-    paddingBottom: "90px",
-    borderTop: "solid 1px",
-    borderColor: "#D8D8D8",
+  img: {
+    width: "10%",
+    height: "auto",
+    borderRadius: "10px",
   },
 }));
 
-export default function Benefits() {
+export default function Benefits(props) {
   const classes = useStyles();
   return (
     <div className={classes.root}>
       <Grid container>
-        <Grid item xs={12} sm={4}>
-          <Paper className={classes.paper}>sm=12</Paper>
+        <Grid item >
+          <Paper className={classes.paper}>
+            <img className={classes.img} src={Eye} alt="logo" />
+            <Typography color="primary">{props.title}</Typography>
+            <Typography color="secondary">{props.text}</Typography>
+          </Paper>
+          
         </Grid>
       </Grid>
     </div>
