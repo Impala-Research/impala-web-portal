@@ -1,62 +1,52 @@
 import React from "react";
-import Grid from "@material-ui/core/Grid";
 import { makeStyles } from "@material-ui/core/styles";
-import Paper from "@material-ui/core/Paper";
-import { Typography } from "@material-ui/core";
-import Button from "@material-ui/core/Button";
+import Card from "@material-ui/core/Card";
+import CardContent from "@material-ui/core/CardContent";
+import Typography from "@material-ui/core/Typography";
 import Eye from "./Eye.png";
+import Button from "@material-ui/core/Button";
 import { Link } from "react-router-dom";
-import "../Home.css";
-const useStyles = makeStyles((theme) => ({
+
+const useStyles = makeStyles({
   root: {
     backgroundColor: "#F9F1E9",
-  },
-  paper: {
-    padding: theme.spacing(2),
-    backgroundColor: "#F9F1E9",
-    boxShadow: "none",
+    height: "550px",
+    margin: "15px",
+    padding: "0px",
   },
   img: {
-    width: "25%",
-    height: "auto",
-    paddingBottom: "25px",
-    paddingTop: "30px",
+    width: "30%",
+    paddingTop: "40px",
   },
   typography: {
-    paddingBottom: "35px",
+    paddingBottom: "40px",
   },
   button: {
-    marginBottom: "35px",
+    marginTop: "100px",
   },
-}));
+  CardContent: {
+    padding: "0px 0px 0px 0px",
+  },
+});
 
 export default function ServicesCard(props) {
   const classes = useStyles();
-  return (
-    <div className={classes.root}>
-      <Grid container spacing="2">
-        <Grid item>
-          <Paper className={classes.paper}>
-            <img className={classes.img} src={Eye} alt="logo" />
-            <Typography className={classes.typography} color="primary">
-              {props.title}
-            </Typography>
-            <Typography className={classes.typography} color="secondary">
-              {props.text}
-            </Typography>
-          </Paper>
 
-          <Link to="/Services">
-            <Button
-              className={classes.button}
-              variant="contained"
-              color="seocnadry"
-            >
-              How it works
-            </Button>
-          </Link>
-        </Grid>
-      </Grid>
-    </div>
+  return (
+    <Card className={classes.root}>
+      <img className={classes.img} src={Eye} alt="img"></img>
+      <CardContent className={classes.CardContent}>
+        <Typography className={classes.typography} color="primary">
+          {props.title}
+        </Typography>
+        <Typography color="secondary">{props.text}</Typography>
+      </CardContent>
+      <Link to="/Services">
+      <Button className={classes.button} variant="contained" color="primary">
+        How it works
+      </Button>
+      </Link>
+
+    </Card>
   );
 }

@@ -2,7 +2,7 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
-import Typography from "@material-ui/core/Typography";
+
 import AlkaloidLogo from "./AlkaloidLogo.png";
 import GeneraliLogo from "./GeneraliLogo.png";
 import OvationLogo from "./OvationLogo.png";
@@ -12,7 +12,7 @@ import ThomeLogo from "./ThomeLogo.png";
 const useStyles = makeStyles((theme) => ({
   root: {
     backgroundColor: "#ffffff",
-    padding: "150px 0px 150px 0px ",
+    padding: "200px 0px 200px 0px ",
     flexGrow: 1,
   },
   paper: {
@@ -31,13 +31,7 @@ export default function Section6() {
 
   return (
     <div className={classes.root}>
-      <Grid container>
-        <Grid item xs={12}>
-          <Typography variant="h4" color="primary">
-            Our surveys are used by:
-          </Typography>
-        </Grid>
-      </Grid>
+      <Grid container></Grid>
       <Grid container>
         <Grid item xs={12} sm={1}>
           <Paper></Paper>
