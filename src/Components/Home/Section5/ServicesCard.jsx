@@ -3,44 +3,55 @@ import Grid from "@material-ui/core/Grid";
 import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import { Typography } from "@material-ui/core";
-import Eye from "../Assets/Eye.png";
-import "../../src/Components/Home/Home.css";
+import Button from "@material-ui/core/Button";
+import Eye from "./Eye.png";
+import "../Home.css";
 const useStyles = makeStyles((theme) => ({
   root: {
-    padding: "60px 0px 10px 0px ",
     backgroundColor: "#F9F1E9",
   },
   paper: {
-    paddingTop: "60px",
     padding: theme.spacing(2),
     backgroundColor: "#F9F1E9",
     boxShadow: "none",
-    textAlign: "left",
+
   },
   img: {
-    paddingBottom: "18px",
-    width: "12%",
+    width: "25%",
     height: "auto",
+    paddingBottom: "25px",
+    paddingTop: "30px",
   },
-
   typography: {
-    paddingBottom: "17px",
+    paddingBottom: "35px",
+  },
+  button: {
+    marginBottom: "35px",
   },
 }));
 
-export default function Benefits(props) {
+export default function ServicesCard(props) {
   const classes = useStyles();
   return (
     <div className={classes.root}>
-      <Grid container>
+      <Grid container spacing="2">
         <Grid item>
           <Paper className={classes.paper}>
             <img className={classes.img} src={Eye} alt="logo" />
             <Typography className={classes.typography} color="primary">
               {props.title}
             </Typography>
-            <Typography color="secondary">{props.text}</Typography>
+            <Typography className={classes.typography} color="secondary">
+              {props.text}
+            </Typography>
           </Paper>
+          <Button
+            className={classes.button}
+            variant="contained"
+            color="seocnadry"
+          >
+            How it works
+          </Button>
         </Grid>
       </Grid>
     </div>
