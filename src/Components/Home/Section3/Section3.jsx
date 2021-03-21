@@ -33,8 +33,8 @@ const useStyles = makeStyles((theme) => ({
     textAlign: "left",
   },
   border: {
-    paddingTop: "90px",
-    paddingBottom: "90px",
+    paddingTop: "100px",
+    paddingBottom: "50px",
     borderTop: "solid 1px",
     borderColor: "#D8D8D8",
   },

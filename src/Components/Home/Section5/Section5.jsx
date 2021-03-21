@@ -12,10 +12,10 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: "#ffffff",
   },
   typography1: {
-    paddingBottom: "200px",
+    paddingBottom: "120px",
   },
   typography2: {
-    paddingTop: "200px",
+    paddingTop: "120px",
   },
 }));
 
@@ -31,7 +31,7 @@ export default function Section5() {
             variant="h4"
             color="primary"
           >
-            How it works
+           Services
           </Typography>
         </Grid>
       </Grid>
@@ -63,7 +63,7 @@ export default function Section5() {
         <Grid item xs={12} sm={2}>
           <ServicesCard
             title="Virtual Shopping"
-            text="Most of the decisions for purchase are made in front of shelves. By exposing respondents to shelves you create an almost identical situation to a real shopping experience and as result receive crucial information...
+            text="Most of the decisions for purchase are made in front of shelves. By exposing respondents to shelves you create an almost identical situation to a real shopping experience and as result receive crucial information... result receive 
 "
           />
         </Grid>

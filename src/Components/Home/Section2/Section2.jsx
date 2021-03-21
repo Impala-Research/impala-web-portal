@@ -10,7 +10,7 @@ import "../Home.css";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    padding: "100px 0px 50px 0px ",
+    padding: "85px 0px 10px 0px ",
     backgroundColor: "#ffffff",
     display: "grid",
     justifyContent: "center",

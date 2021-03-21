@@ -42,11 +42,14 @@ export default function ServicesCard(props) {
         <Typography color="secondary">{props.text}</Typography>
       </CardContent>
       <Link to="/Services">
-      <Button className={classes.button} variant="contained" color="primary">
-        How it works
-      </Button>
+        <Button
+          className={classes.button}
+          variant="contained"
+          color="secondary"
+        >
+          How it works
+        </Button>
       </Link>
-
     </Card>
   );
 }
