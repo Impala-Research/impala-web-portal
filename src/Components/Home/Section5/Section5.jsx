@@ -37,9 +37,8 @@ export default function Section5() {
         <Grid item xs={12} sm={2}>
           <Paper className={classes.paper}>
             <ServicesCard
-              title="Traditional Market Research tools"
-              text="Implicit research techniques are highly advanced in detecting behavior, from a human and consumer perspective. However, they have no capacity to discover the reasons behind such as…
-              We from IMPALA strongly believe that those reasons...
+              title="Eye Tracking"
+              text="Eye Tracking is a technology that allows you to understand what a person is really looking at while watching advertising, viewing design layouts, browsing a website, etc. It is the most objective method to...
 "
             />
           </Paper>
@@ -47,9 +46,8 @@ export default function Section5() {
         <Grid item xs={12} sm={2}>
           <Paper className={classes.paper}>
             <ServicesCard
-              title="Traditional Market Research tools"
-              text="Implicit research techniques are highly advanced in detecting behavior, from a human and consumer perspective. However, they have no capacity to discover the reasons behind such as…
-              We from IMPALA strongly believe that those reasons...
+              title="Emotional recognition through face"
+              text="Emotional Recognition through face Emotions define how we feel about certain things, facial expressions are the most obvious way to show those feelings. However, identifying human emotions in digitalization has always been a challenge...
 "
             />
           </Paper>
@@ -57,9 +55,8 @@ export default function Section5() {
         <Grid item xs={12} sm={2}>
           <Paper className={classes.paper}>
             <ServicesCard
-              title="Traditional Market Research tools"
-              text="Implicit research techniques are highly advanced in detecting behavior, from a human and consumer perspective. However, they have no capacity to discover the reasons behind such as…
-              We from IMPALA strongly believe that those reasons...
+              title="IAT - Test of Implicit Associations"
+              text="IYour customers or/and target groups have only limited access to their own thoughts and preferences. Also, traditional research methods are limited in developing deeper insights. As a result, market researchers across the globe embrace...
 "
             />
           </Paper>
@@ -67,9 +64,8 @@ export default function Section5() {
         <Grid item xs={12} sm={2}>
           <Paper className={classes.paper}>
             <ServicesCard
-              title="Traditional Market Research tools"
-              text="Implicit research techniques are highly advanced in detecting behavior, from a human and consumer perspective. However, they have no capacity to discover the reasons behind such as…
-              We from IMPALA strongly believe that those reasons...
+              title="Virtual Shopping"
+              text="Most of the decisions for purchase are made in front of shelves. By exposing respondents to shelves you create an almost identical situation to a real shopping experience and as result receive crucial information...
 "
             />
           </Paper>

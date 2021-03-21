@@ -10,6 +10,7 @@ import Team from "./Components/Team/Team";
 import Contact from "./Components/Contact/Contact";
 import Container from "@material-ui/core/Container";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
             <Route path="/Team" component={Team} />
             <Route path="/Contact" component={Contact} />
           </Switch>
+          <Footer/>
         </Router>
       </Container>
     </div>

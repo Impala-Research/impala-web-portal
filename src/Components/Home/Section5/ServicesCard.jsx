@@ -5,6 +5,7 @@ import Paper from "@material-ui/core/Paper";
 import { Typography } from "@material-ui/core";
 import Button from "@material-ui/core/Button";
 import Eye from "./Eye.png";
+import { Link } from "react-router-dom";
 import "../Home.css";
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -14,7 +15,6 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(2),
     backgroundColor: "#F9F1E9",
     boxShadow: "none",
-
   },
   img: {
     width: "25%",
@@ -45,13 +45,16 @@ export default function ServicesCard(props) {
               {props.text}
             </Typography>
           </Paper>
-          <Button
-            className={classes.button}
-            variant="contained"
-            color="seocnadry"
-          >
-            How it works
-          </Button>
+
+          <Link to="/Services">
+            <Button
+              className={classes.button}
+              variant="contained"
+              color="seocnadry"
+            >
+              How it works
+            </Button>
+          </Link>
         </Grid>
       </Grid>
     </div>
