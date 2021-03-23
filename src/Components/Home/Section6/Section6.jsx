@@ -9,7 +9,7 @@ import ThomeLogo from "./ThomeLogo.png";
 const useStyles = makeStyles((theme) => ({
   root: {
     backgroundColor: "#ffffff",
-    padding: "200px 0px 200px 0px ",
+    padding: "170px 0px 200px 0px ",
     flexGrow: 1,
   },
   paper: {

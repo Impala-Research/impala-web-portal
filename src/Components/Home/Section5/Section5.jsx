@@ -4,12 +4,12 @@ import ServicesCard from "../Section5/ServicesCard";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    padding: "150px 0px 0px 0px ",
+    padding: "100px 0px 0px 0px ",
     flexGrow: 1,
     backgroundColor: "#ffffff",
   },
   typography1: {
-    paddingBottom: "120px",
+    paddingBottom: "90px",
   },
   typography2: {
     paddingTop: "120px",
