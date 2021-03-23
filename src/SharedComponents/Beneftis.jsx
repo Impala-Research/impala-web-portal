@@ -3,7 +3,7 @@ import Grid from "@material-ui/core/Grid";
 import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import { Typography } from "@material-ui/core";
-import Eye from "../Assets/Eye.png";
+import EyeImage from "../Assets/Eye-img.png";
 import "../../src/Components/Home/Home.css";
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -35,7 +35,7 @@ export default function Benefits(props) {
       <Grid container>
         <Grid item>
           <Paper className={classes.paper}>
-            <img className={classes.img} src={Eye} alt="logo" />
+            <img className={classes.img} src={EyeImage} alt="logo" />
             <Typography className={classes.typography} color="primary">
               {props.title}
             </Typography>

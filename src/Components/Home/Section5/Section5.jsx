@@ -31,7 +31,7 @@ export default function Section5() {
             variant="h4"
             color="primary"
           >
-           Services
+            Services
           </Typography>
         </Grid>
       </Grid>

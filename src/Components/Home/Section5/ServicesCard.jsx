@@ -12,7 +12,6 @@ const useStyles = makeStyles({
     backgroundColor: "#F9F1E9",
     height: "550px",
     margin: "15px",
-    padding: "0px",
   },
   img: {
     width: "30%",
@@ -24,9 +23,7 @@ const useStyles = makeStyles({
   button: {
     marginTop: "100px",
   },
-  CardContent: {
-    padding: "0px 0px 0px 0px",
-  },
+
 });
 
 export default function ServicesCard(props) {

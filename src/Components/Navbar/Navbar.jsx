@@ -4,7 +4,7 @@ import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import { Link } from "react-router-dom";
-import logo from "../../Assets/logoimage.png";
+import logo from "../../Assets/Logo-img.png";
 const useStyles = makeStyles(() => ({
   appBar: {
     backgroundColor: "#F4E3D4",

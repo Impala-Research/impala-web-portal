@@ -2,7 +2,7 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
-import ImageGirl from "../../../Assets/ImageGirl.png";
+import GirlImage from "../../../Assets/Girl-img.png";
 import Typography from "@material-ui/core/Typography";
 import { Button } from "@material-ui/core";
 import { Link } from "react-router-dom";
@@ -79,7 +79,7 @@ export default function Section3() {
           </Grid>
           <Grid className={classes.border} item xs={12} sm={5}>
             <Paper className={classes.paper}>
-              <img className={classes.img} src={ImageGirl} alt="logo" />
+              <img className={classes.img} src={GirlImage} alt="logo" />
             </Paper>
           </Grid>
           <Grid item xs={12} sm={1}>
