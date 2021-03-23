@@ -7,6 +7,7 @@ const useStyles = makeStyles((theme) => ({
     padding: "100px 0px 0px 0px ",
     flexGrow: 1,
     backgroundColor: "#ffffff",
+    paddingLeft:"50px"
   },
   typography1: {
     paddingBottom: "90px",

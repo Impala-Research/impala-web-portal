@@ -1,29 +1,31 @@
 import React from "react";
-import {
-  Card,
-  CardContent,
-  Button,
-  Typography,
-  makeStyles,
-} from "@material-ui/core";
-import Eye from "./Eye.png";
+import { makeStyles } from "@material-ui/core/styles";
+import Card from "@material-ui/core/Card";
+import CardContent from "@material-ui/core/CardContent";
+import Button from "@material-ui/core/Button";
+import Paper from "@material-ui/core/Paper";
+import Typography from "@material-ui/core/Typography";
+import Eye from "../Section5/Assets/Eye.png";
 import { Link } from "react-router-dom";
+import "./ServicesCard.css";
 
 const useStyles = makeStyles({
   root: {
+    paddingTop: "45px",
     backgroundColor: "#F9F1E9",
-    height: "550px",
-    margin: "15px",
+    paddingBottom: "45px",
   },
   img: {
     width: "30%",
-    paddingTop: "40px",
+    height: "auto",
+    borderRadius: "10px",
   },
-  typography: {
-    paddingBottom: "40px",
+
+  pos: {
+    paddingTop: "20px",
   },
-  button: {
-    marginTop: "100px",
+  paper: {
+    margin: "16px",
   },
 });
 
@@ -31,23 +33,21 @@ export default function ServicesCard(props) {
   const classes = useStyles();
 
   return (
-    <Card className={classes.root}>
-      <img className={classes.img} src={Eye} alt="img"></img>
-      <CardContent className={classes.CardContent}>
-        <Typography className={classes.typography} color="primary">
-          {props.title}
-        </Typography>
-        <Typography color="secondary">{props.text}</Typography>
-      </CardContent>
-      <Link to="/Services">
-        <Button
-          className={classes.button}
-          variant="contained"
-          color="secondary"
-        >
-          How it works
-        </Button>
-      </Link>
-    </Card>
+    <Paper className={classes.paper}>
+      <Card className={classes.root}>
+        <CardContent>
+          <img className={classes.img} src={Eye} alt="img"></img>
+          <Typography className={classes.pos} variant="h5" color="primary">
+            {props.title}
+          </Typography>
+          <Typography className={classes.pos}>{props.text}</Typography>
+        </CardContent>
+        <Link to="/Services">
+          <Button color="secondary" variant="contained">
+            How it works ?
+          </Button>
+        </Link>
+      </Card>
+    </Paper>
   );
 }
