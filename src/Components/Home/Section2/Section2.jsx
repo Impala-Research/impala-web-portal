@@ -6,7 +6,7 @@ import Typography from "@material-ui/core/Typography";
 import ImpalaImage from "../../../Assets/Impala-Img.png";
 import { Button } from "@material-ui/core";
 import { Link } from "react-router-dom";
-import "../Home.css";
+import "../Home/Home.css";
 
 const useStyles = makeStyles((theme) => ({
   root: {

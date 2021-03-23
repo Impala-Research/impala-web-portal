@@ -4,7 +4,8 @@ import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import { Typography } from "@material-ui/core";
 import EyeImage from "../Assets/Eye-img.png";
-import "../../src/Components/Home/Home.css";
+import "../../src/Components/Home/Home/Home.css";
+
 const useStyles = makeStyles((theme) => ({
   root: {
     padding: "60px 0px 10px 0px ",
@@ -24,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
   },
 
   typography: {
-    paddingBottom: "17px",
+    paddingBottom: "16px",
   },
 }));
 
