@@ -20,7 +20,6 @@ const useStyles = makeStyles((theme) => ({
     width: "12%",
     height: "auto",
   },
-
   typography: {
     paddingBottom: "16px",
   },

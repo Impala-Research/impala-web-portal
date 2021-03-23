@@ -3,7 +3,7 @@
     padding: 100px 0px 100px 0px !important;
   }
   .makeStyles-root-6 {
-    padding: 60px 0px 60px 0px !important ;
+    padding: 60px 0px 00px 0px !important ;
   }
   .jss4 {
     padding: 100px 0px 100px 0px !important;
@@ -13,5 +13,40 @@
   }
   .makeStyles-root-20 {
     padding: 0px 0px 0px 0px !important ;
+  }
+  .jss20 {
+    padding: 0px 0px 0px 0px !important ;
+  }
+  .makeStyles-border-17 {
+    padding-top: 50px !important;
+    padding-bottom: 0px !important;
+  }
+  .jss17 {
+    padding-top: 50px !important;
+    padding-bottom: 0px !important;
+  }
+  .makeStyles-root-18 {
+    padding: 60px 0px 125px 0px;
+  }
+  .jss18 {
+    padding: 60px 0px 125px 0px;
+  }
+  .makeStyles-root-12 {
+    padding: 50px 0px 100px 0px !important;
+  }
+  .jss12 {
+    padding: 50px 0px 100px 0px !important;
+  }
+  .makeStyles-root-24 {
+    padding: 51px 0px 0px 0px !important;
+  }
+  .jss24 {
+    padding: 51px 0px 0px 0px !important;
+  }
+  .makeStyles-typography1-25 {
+    padding-bottom: 42px !important;
+  }
+  .jss25 {
+    padding-bottom: 42px !important;
   }
 }

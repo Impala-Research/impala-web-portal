@@ -1,10 +1,12 @@
 import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
-import Card from "@material-ui/core/Card";
-import CardContent from "@material-ui/core/CardContent";
-import Typography from "@material-ui/core/Typography";
+import {
+  Card,
+  CardContent,
+  Button,
+  Typography,
+  makeStyles,
+} from "@material-ui/core";
 import Eye from "./Eye.png";
-import Button from "@material-ui/core/Button";
 import { Link } from "react-router-dom";
 
 const useStyles = makeStyles({
@@ -23,7 +25,6 @@ const useStyles = makeStyles({
   button: {
     marginTop: "100px",
   },
-
 });
 
 export default function ServicesCard(props) {
