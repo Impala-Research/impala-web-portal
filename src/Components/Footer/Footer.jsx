@@ -1,19 +1,9 @@
 import React from "react";
-import PropTypes from "prop-types";
-import { Container, Link, Typography, makeStyles } from "@material-ui/core";
-
-function Copyright() {
-  return (
-    <Typography variant="body2" color="textSecondary" align="center">
-      {"Copyright © "}
-      <Link color="inherit" href="https://material-ui.com/">
-        Your Website
-      </Link>{" "}
-      {new Date().getFullYear()}
-      {"."}
-    </Typography>
-  );
-}
+import { makeStyles } from "@material-ui/core/styles";
+import Container from "@material-ui/core/Container";
+import Typography from "@material-ui/core/Typography";
+import logo from "../../Assets/Logo-img.png";
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
   footer: {
@@ -21,7 +11,42 @@ const useStyles = makeStyles((theme) => ({
 
     padding: theme.spacing(6, 0),
   },
+  links: {
+    fontSize: "12px",
+    marginRight: "20px",
+    color: "#707070",
+    paddingLeft:"40px"
+  },
 }));
+
+function Copyright() {
+  const classes = useStyles();
+  return (
+    <Typography variant="body2" color="textSecondary" align="left">
+      <Link to="/">
+        <img src={logo} alt="logo" />
+      </Link>{" "}
+      <Link className={classes.links} to="/">
+        Home
+      </Link>
+      <Link className={classes.links} to="/Services">
+        Services
+      </Link>
+      <Link className={classes.links} to="/Features">
+        Features
+      </Link>
+      <Link className={classes.links} to="/Plans-Pricing">
+        Plans And Pricing
+      </Link>
+      <Link className={classes.links} to="/Team">
+        Team
+      </Link>
+      <Link className={classes.links} to="/Contact">
+        Contact
+      </Link>
+    </Typography>
+  );
+}
 
 export default function Footer(props) {
   const classes = useStyles();
@@ -46,8 +71,3 @@ export default function Footer(props) {
     </footer>
   );
 }
-
-Footer.propTypes = {
-  description: PropTypes.string,
-  title: PropTypes.string,
-};
