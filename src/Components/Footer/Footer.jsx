@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
     fontSize: "12px",
     marginRight: "20px",
     color: "#707070",
-    paddingLeft:"40px"
+    paddingLeft: "40px",
   },
 }));
 
