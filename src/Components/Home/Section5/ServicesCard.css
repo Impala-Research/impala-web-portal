@@ -1,3 +1,9 @@
 .MuiCardContent-root {
   height: 450px !important;
 }
+@media only screen and (max-width: 1650px) {
+  .MuiCardContent-root {
+    height: 455px !important;
+    padding: 0px !important;
+  }
+}
