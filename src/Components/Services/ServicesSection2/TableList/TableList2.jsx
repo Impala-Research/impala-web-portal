@@ -1,14 +1,15 @@
 import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
-import List from "@material-ui/core/List";
-import ListItem from "@material-ui/core/ListItem";
-import ListItemText from "@material-ui/core/ListItemText";
-import Grid from "@material-ui/core/Grid";
-import Typography from "@material-ui/core/Typography";
+import {
+  List,
+  ListItem,
+  ListItemText,
+  Grid,
+  Typography,
+  makeStyles,
+} from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
   demo: {
-    backgroundColor: " #F9F1E9",
     borderStyle: "solid",
     margin: "25px",
     borderColor: "white",
@@ -28,56 +29,54 @@ export default function TableList2(props) {
 
   return (
     <Grid container>
-      <Grid item>
-        <div className={classes.demo}>
-          <Typography color="secondary" variant="h6" className={classes.title1}>
-            {props.title1}
-          </Typography>
-          <Typography variant="h5" color="primary" className={classes.title2}>
-            {props.title2}
-          </Typography>
-          <List>
-            <ListItem>
-              <ListItemText>
-                <ul>
-                  <li>{props.text1}</li>
-                </ul>
-              </ListItemText>
-            </ListItem>
-            <ListItem>
-              <ListItemText>
-                {" "}
-                <ul>
-                  <li>{props.text2}</li>
-                </ul>
-              </ListItemText>
-            </ListItem>
-            <ListItem>
-              <ListItemText>
-                {" "}
-                <ul>
-                  <li>{props.text3}</li>
-                </ul>
-              </ListItemText>
-            </ListItem>
-            <ListItem>
-              <ListItemText>
-                {" "}
-                <ul>
-                  <li>{props.text4}</li>
-                </ul>
-              </ListItemText>
-            </ListItem>
-            <ListItem>
-              <ListItemText>
-                {" "}
-                <ul>
-                  <li>{props.text5}</li>
-                </ul>
-              </ListItemText>
-            </ListItem>
-          </List>
-        </div>
+      <Grid item className={classes.demo}>
+        <Typography color="secondary" variant="h6" className={classes.title1}>
+          {props.title1}
+        </Typography>
+        <Typography variant="h5" color="primary" className={classes.title2}>
+          {props.title2}
+        </Typography>
+        <List>
+          <ListItem>
+            <ListItemText>
+              <ul>
+                <li>{props.text1}</li>
+              </ul>
+            </ListItemText>
+          </ListItem>
+          <ListItem>
+            <ListItemText>
+              {" "}
+              <ul>
+                <li>{props.text2}</li>
+              </ul>
+            </ListItemText>
+          </ListItem>
+          <ListItem>
+            <ListItemText>
+              {" "}
+              <ul>
+                <li>{props.text3}</li>
+              </ul>
+            </ListItemText>
+          </ListItem>
+          <ListItem>
+            <ListItemText>
+              {" "}
+              <ul>
+                <li>{props.text4}</li>
+              </ul>
+            </ListItemText>
+          </ListItem>
+          <ListItem>
+            <ListItemText>
+              {" "}
+              <ul>
+                <li>{props.text5}</li>
+              </ul>
+            </ListItemText>
+          </ListItem>
+        </List>
       </Grid>
     </Grid>
   );
