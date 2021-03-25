@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid, Paper, Typography, makeStyles } from "@material-ui/core";
-import Benefits from "../../../SharedComponents/Beneftis";
+import Benefits from "../../../SharedComponents/Benefits/Beneftis";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
   },
   paper: {
     backgroundColor: "#F9F1E9",
-    textAlign: "center",
+    textAlign: "left",
     color: theme.palette.text.secondary,
     boxShadow: "none",
   },

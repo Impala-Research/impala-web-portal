@@ -1,7 +1,7 @@
 import React from "react";
 import { AppBar, Toolbar, Typography, makeStyles } from "@material-ui/core";
 import { Link } from "react-router-dom";
-import logo from "../../Assets/Logo-img.png";
+import logo from "../../../Assets/Logo-img.png";
 
 const useStyles = makeStyles(() => ({
   appBar: {

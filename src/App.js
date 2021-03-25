@@ -1,16 +1,16 @@
 import React from "react";
 import "./App.css";
 import CssBaseline from "@material-ui/core/CssBaseline";
-import Navbar from "./Components/Navbar/Navbar";
+import Navbar from "./Components/Navbar/Navbar/Navbar";
 import Home from "./Components/Home/Home/Home";
 import Services from "./Components/Services/Services/Services";
-import Features from "./Components/Features/Features";
-import PlansAndPricing from "./Components/PlansAndPricing/PlansAndPricing";
-import Team from "./Components/Team/Team";
-import Contact from "./Components/Contact/Contact";
+import Features from "./Components/Features/Features/Features";
+import PlansAndPricing from "./Components/PlansAndPricing/PlansAndPricing/PlansAndPricing";
+import Team from "./Components/Team/Team/Team";
+import Footer from "./Components/Footer/Footer/Footer";
+import Contact from "./Components/Contact/Contact/Contact";
 import Container from "@material-ui/core/Container";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
             <Route path="/Team" component={Team} />
             <Route path="/Contact" component={Contact} />
           </Switch>
-          <Footer/>
+          <Footer />
         </Router>
       </Container>
     </div>

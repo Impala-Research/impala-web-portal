@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid, Paper, Typography, makeStyles } from "@material-ui/core";
-import EyeImage from "../ServicesSection1/Eye-img.png";
-import EyeAndGirlImage from "../ServicesSection1/GirlAndEyeImage.png";
+import EyeImage from "../../../Assets/Eye-img.png";
+import EyeAndGirlImage from "../../../Assets/GirlAndEyeImage.png";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -26,7 +26,6 @@ const useStyles = makeStyles((theme) => ({
     paddingTop: "40px",
     width: "100%",
     height: "auto",
-   
   },
 }));
 

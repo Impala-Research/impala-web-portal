@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid, Paper, Typography, makeStyles } from "@material-ui/core";
-import EyeImage from "../Assets/Eye-img.png";
-import "../../src/Components/Home/Home/Home.css";
+import EyeImage from "../../Assets/Eye-img.png";
+import "../../../src/Components/Home/Home/Home.css";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -13,7 +13,6 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(2),
     backgroundColor: "#F9F1E9",
     boxShadow: "none",
-   
   },
   img: {
     paddingBottom: "18px",

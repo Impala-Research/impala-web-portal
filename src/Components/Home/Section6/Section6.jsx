@@ -1,10 +1,10 @@
 import React from "react";
 import { Grid, Paper, makeStyles } from "@material-ui/core";
-import AlkaloidLogo from "././Assets/AlkaloidLogo.png";
-import GeneraliLogo from "././Assets/GeneraliLogo.png";
-import OvationLogo from "././Assets/OvationLogo.png";
-import PrilepslaLogo from "././Assets/PrilepslaLogo.png";
-import ThomeLogo from "././Assets/ThomeLogo.png";
+import AlkaloidLogo from "../../../Assets/AlkaloidLogo.png";
+import GeneraliLogo from "../../../Assets/GeneraliLogo.png";
+import OvationLogo from "../../../Assets/OvationLogo.png";
+import PrilepslaLogo from "../../../Assets/PrilepslaLogo.png";
+import ThomeLogo from "../../../Assets/ThomeLogo.png";
 
 const useStyles = makeStyles((theme) => ({
   root: {

@@ -1,6 +1,7 @@
 import React from "react";
 import { Grid, Paper, makeStyles } from "@material-ui/core";
 import ServicesSection1 from "../ServicesSection1/ServicesSection1";
+import ServicesSection2 from "../ServicesSection2/ServicesSection2";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -36,6 +37,18 @@ export default function Services() {
           <Paper></Paper>
         </Grid>
       </Grid>
+      <Grid container>
+        <Grid item xs={12} sm={3}>
+          <Paper></Paper>
+        </Grid>
+        <Grid item xs={12} sm={6}>
+          <ServicesSection2 title="How it Works" />
+        </Grid>
+        <Grid item xs={12} sm={2}>
+          <Paper></Paper>
+        </Grid>
+      </Grid>
+      
     </div>
   );
 }
