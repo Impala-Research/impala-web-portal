@@ -7,8 +7,7 @@ import { Link } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
   footer: {
-    backgroundColor: "#F9F1E9",
-
+    backgroundColor: "#F4E3D4",
     padding: theme.spacing(6, 0),
   },
   links: {

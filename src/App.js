@@ -3,7 +3,7 @@ import "./App.css";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import Navbar from "./Components/Navbar/Navbar";
 import Home from "./Components/Home/Home/Home";
-import Services from "./Components/Services/Services";
+import Services from "./Components/Services/Services/Services";
 import Features from "./Components/Features/Features";
 import PlansAndPricing from "./Components/PlansAndPricing/PlansAndPricing";
 import Team from "./Components/Team/Team";
