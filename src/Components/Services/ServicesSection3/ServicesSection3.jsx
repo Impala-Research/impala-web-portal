@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function ServicesSection3() {
+export default function ServicesSection3(props) {
   const classes = useStyles();
 
   return (
@@ -26,7 +26,7 @@ export default function ServicesSection3() {
         <Grid item xs={12} sm={10}>
           <Paper className={classes.paper}>
             <Typography variant="h4" color="primary">
-              Eye Tracking on Impala
+              {props.title}
             </Typography>
           </Paper>
         </Grid>
@@ -40,16 +40,7 @@ export default function ServicesSection3() {
         </Grid>
         <Grid item xs={12} sm={10}>
           <Paper className={classes.paper}>
-            <Typography color="secondary">
-              On IMPALA, the eye tracking technology is fully integrated with
-              other neuromarketing technologies. It allows you to cross-analyze
-              consumers’ explicit responses with their non-conscious reactions
-              and get the most reliable insights. The eye tracking technology is
-              fully automated. Eye tracking studies are mainly using a computer
-              webcam to detect data. Please note that the accuracy of the
-              webcam-based eye tracking results depends on the webcam
-              resolution.
-            </Typography>
+            <Typography color="secondary">{props.text}</Typography>
           </Paper>
         </Grid>
         <Grid item xs={12} sm={1}>
