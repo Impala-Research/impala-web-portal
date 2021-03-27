@@ -2,7 +2,7 @@ import React from "react";
 import { Grid, Paper, Typography, makeStyles } from "@material-ui/core";
 import EyeImage from "../../../Assets/Eye-img.png";
 import BgImage from "../../../../src/Assets/Background-Image.png";
-
+import "../Services/Services.css";
 const useStyles = makeStyles((theme) => ({
   root: {
     textAlign: "left",
@@ -18,6 +18,9 @@ const useStyles = makeStyles((theme) => ({
   },
   typography: {
     paddingBottom: "16px",
+  },
+  typography1: {
+    color: "black",
   },
 }));
 
@@ -49,7 +52,11 @@ export default function ServicesSection4(props) {
             >
               {props.title}
             </Typography>
-            <Typography variant="body1" color="secondary">
+            <Typography
+              className={classes.typography1}
+              variant="body1"
+              color="secondary"
+            >
               {props.text}
             </Typography>
           </Grid>
