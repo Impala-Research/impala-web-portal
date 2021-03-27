@@ -10,7 +10,7 @@ import {
 
 const useStyles = makeStyles((theme) => ({
   demo: {
-    borderStyle: "solid",
+    // borderStyle: "solid",
     margin: "25px",
     borderColor: "white",
     borderRadius: "7px",
