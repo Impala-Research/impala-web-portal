@@ -10,7 +10,6 @@ import {
 
 const useStyles = makeStyles((theme) => ({
   demo: {
-    // borderStyle: "solid",
     margin: "25px",
     borderColor: "white",
     borderRadius: "7px",
@@ -39,9 +38,7 @@ export default function TableList1(props) {
         <List>
           <ListItem>
             <ListItemText>
-              <ul>
-                <li>{props.text1}</li>
-              </ul>
+              <li>{props.text1}</li>
             </ListItemText>
           </ListItem>
           <ListItem>
