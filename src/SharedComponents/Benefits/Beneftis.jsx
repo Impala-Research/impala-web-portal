@@ -35,6 +35,9 @@ export default function Benefits(props) {
             <Typography className={classes.typography} color="primary">
               {props.title}
             </Typography>
+            <Typography className={classes.typography} color="primary">
+              {props.title1}
+            </Typography>
             <Typography color="secondary">{props.text}</Typography>
           </Paper>
         </Grid>
