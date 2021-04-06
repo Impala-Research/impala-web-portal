@@ -2,11 +2,11 @@ import React from "react";
 import { Grid, Paper, Typography, makeStyles } from "@material-ui/core";
 const useStyles = makeStyles((theme) => ({
   root: {
-    padding: "60px 0px 10px 0px ",
+    padding: "30px 0px 0px 0px ",
     backgroundColor: "#F9F1E9",
   },
   paper: {
-    paddingTop: "60px",
+    paddingTop: "40px",
     padding: theme.spacing(2),
     backgroundColor: "#F9F1E9",
     boxShadow: "none",

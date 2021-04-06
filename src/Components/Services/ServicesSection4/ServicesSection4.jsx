@@ -2,9 +2,9 @@ import React from "react";
 import { Grid, Paper, Typography, makeStyles } from "@material-ui/core";
 import EyeImage from "../../../Assets/Eye-img.png";
 import BgImage from "../../../../src/Assets/Background-Image.png";
-import "../Services/Services.css";
 const useStyles = makeStyles((theme) => ({
   root: {
+   
     textAlign: "left",
     display: "grid",
     justifyContent: "center",

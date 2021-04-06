@@ -3,7 +3,7 @@ import { Grid, Button, Paper, Typography, makeStyles } from "@material-ui/core";
 import { Link } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
-  root: { paddingTop: "40px", paddingBottom: "100px" },
+  root: { paddingTop: "40px", paddingBottom: "60px" },
   paper: {
     padding: theme.spacing(2),
     backgroundColor: "#F9F1E9",

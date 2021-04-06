@@ -8,21 +8,26 @@ import {
   makeStyles,
 } from "@material-ui/core";
 
+
 const useStyles = makeStyles((theme) => ({
   demo: {
-    // borderStyle: "solid",
-    margin: "25px",
+    margin: "30px",
     borderColor: "white",
     borderRadius: "7px",
+    borderStyle: "solid",
+   
   },
   title1: {
     paddingTop: "15px",
+    paddingLeft:"25px",
+    paddingRight:"25px"
   },
   title2: {
     paddingBottom: "15px",
     borderBottom: "solid white 1px",
   },
 }));
+
 
 export default function TableList2(props) {
   const classes = useStyles();

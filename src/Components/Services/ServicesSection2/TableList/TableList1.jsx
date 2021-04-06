@@ -10,19 +10,22 @@ import {
 
 const useStyles = makeStyles((theme) => ({
   demo: {
-    margin: "25px",
+    margin: "30px",
     borderColor: "white",
     borderRadius: "7px",
+    borderStyle: "solid",
+  
   },
   title1: {
     paddingTop: "15px",
+    paddingLeft: "25px",
+    paddingRight: "25px",
   },
   title2: {
     paddingBottom: "15px",
     borderBottom: "solid white 1px",
   },
 }));
-
 export default function TableList1(props) {
   const classes = useStyles();
 
@@ -38,7 +41,9 @@ export default function TableList1(props) {
         <List>
           <ListItem>
             <ListItemText>
-              <li>{props.text1}</li>
+              <ul>
+                <li>{props.text1}</li>
+              </ul>
             </ListItemText>
           </ListItem>
           <ListItem>

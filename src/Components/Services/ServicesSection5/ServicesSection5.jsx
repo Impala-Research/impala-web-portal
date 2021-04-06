@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 const useStyles = makeStyles((theme) => ({
   root: {
     textAlign: "left",
-    paddingTop: "40px",
+    paddingTop: "80px",
+    paddingBottom: "100px",
   },
   typography: {
     paddingBottom: "15px",

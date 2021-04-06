@@ -5,11 +5,11 @@ import EyeAndGirlImage from "../../../Assets/GirlAndEyeImage.png";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    padding: "60px 0px 10px 0px ",
+    padding: "60px 0px 0px 0px ",
     backgroundColor: "#F9F1E9",
   },
   paper: {
-    paddingTop: "60px",
+    paddingTop: "30px",
     padding: theme.spacing(2),
     backgroundColor: "#F9F1E9",
     boxShadow: "none",

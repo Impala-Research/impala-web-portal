@@ -12,7 +12,6 @@ import TableList4 from "../ServicesSection2/TableList/TableList4";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    padding: "0px 0px 0px 0px ",
     backgroundColor: "#F9F1E9",
     display: "grid",
     justifyContent: "center",
@@ -175,13 +174,13 @@ As soon as the respondent reacts IMPALA recognizes the exact time of the appeara
               </Grid>
               <Grid item xs={12} sm={6}>
                 <TableList2
-                  title1="With eye tracking you can "
-                  title2="Test"
-                  text1="Video materials"
-                  text2="Live Websites (UX/UI)"
-                  text3="Images (print ads, online banners, etc.)"
-                  text4="Packages/product concept"
-                  text5="Product shelf placement"
+                  title1="Fields of applications
+                  of IAT are: "
+                  text1="measuring brand image"
+                  text2="testing brand DNA"
+                  text3="testing logos"
+                  text4="testing headlines"
+                  text5="and more..."
                 />
               </Grid>
             </Grid>
@@ -193,8 +192,8 @@ As soon as the respondent reacts IMPALA recognizes the exact time of the appeara
         <Grid container>
           <Grid item xs={12} sm={12}>
             <ServicesSection4
-              title="Emotional recognition through face"
-              text="Emotional Recognition through face Emotions define how we feel about certain things, facial expressions are the most obvious way to show those feelings. However, identifying human emotions in digitalization has always been a challenge – as a solution the implicit technique Emotional Recognition through face systems have been developed."
+              title="Virtual Shopping"
+              text="Most of the decisions for purchase are made in front of shelves. By exposing respondents to shelves you create an almost identical situation to a real shopping experience and as result receive crucial information on the customer’s decision tree."
             />
           </Grid>
         </Grid>
@@ -206,20 +205,21 @@ As soon as the respondent reacts IMPALA recognizes the exact time of the appeara
           <Grid item xs={12} sm={3}>
             <ServicesSection5
               title="How it works"
-              text="The base of IAT is to measure the time of a reaction to specific stimuli. Why? Because our brain requires more time to act upon incongruent thoughts than something we find logical straight away. Therefore, the associative strength can be calculated as reaction time difference between blocks."
-              title1="IAT on Impala"
+              text="When using a virtual shopping tool, respondents are instructed to click on the products they want to buy, answer how many pieces they are willing to buy, etc. (any more details available?)"
+              title1="Virtual Shopping on Impala"
               text1="(can we add 1 sentence how it works on IMPALA)"
             />
           </Grid>
           <Grid item xs={12} sm={3}>
             <TableList2
-              title1="With eye tracking you can "
+              title1="With virtual shopping
+              you can easily"
               title2="Test"
-              text1="Video materials"
-              text2="Live Websites (UX/UI)"
-              text3="Images (print ads, online banners, etc.)"
-              text4="Packages/product concept"
-              text5="Product shelf placement"
+              text1="display and POS materials effectiveness"
+              text2="category drivers"
+              text3="shelves organization (planogram)"
+              text4="label or package testing"
+              text5="price testing"
             />
           </Grid>
           <Grid item xs={12} sm={3}>
@@ -246,12 +246,12 @@ As soon as the respondent reacts IMPALA recognizes the exact time of the appeara
             <Paper></Paper>
           </Grid>
           <Grid item xs={12} sm={6}>
-            <ServicesSection2 title="How it Works" />
+            <ServicesSection2 title="Traditional Market Research Tools we offer:" />
             <Grid container>
               <Grid item xs={12} sm={6}>
                 <TableList1
-                  title1="With eye tracking you can "
-                  title2="Detect"
+                  title1="Regression
+                  analysis"
                   text1="Where the sight is focused"
                   text2="What is the users gaze pattern"
                   text3="Which element is seen first, second, third etc."
@@ -260,8 +260,8 @@ As soon as the respondent reacts IMPALA recognizes the exact time of the appeara
               </Grid>
               <Grid item xs={12} sm={6}>
                 <TableList2
-                  title1="With eye tracking you can "
-                  title2="Test"
+                  title1="Needs and Gaps
+                  Analysis"
                   text1="Video materials"
                   text2="Live Websites (UX/UI)"
                   text3="Images (print ads, online banners, etc.)"

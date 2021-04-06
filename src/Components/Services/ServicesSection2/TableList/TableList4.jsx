@@ -10,12 +10,16 @@ import {
 
 const useStyles = makeStyles((theme) => ({
   demo: {
-    margin: "25px",
+    margin: "30px",
     borderColor: "white",
     borderRadius: "7px",
+    borderStyle: "solid",
+  
   },
   title1: {
     paddingTop: "15px",
+    paddingLeft:"25px",
+    paddingRight:"25px"
   },
   title2: {
     paddingBottom: "15px",
