@@ -7,6 +7,7 @@ import Ognen from "../../../Assets/ognen-spasovski-image.png";
 import Igor from "../../../Assets/igor@2x.png";
 import Ljupco from "../../../Assets/ljupco-kocarev-image.png";
 import Dragan from "../../../Assets/Dragan.png";
+import "./Team.css";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -33,7 +34,7 @@ export default function Team() {
   const classes = useStyles();
 
   return (
-    <>
+    <div className="Team">
       <div className={classes.root}>
         <Grid container>
           <Grid item xs={12} sm={3}>
@@ -191,6 +192,6 @@ export default function Team() {
           </Grid>
         </Grid>
       </div>
-    </>
+    </div>
   );
 }

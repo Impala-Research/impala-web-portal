@@ -1,5 +1,6 @@
 import React from "react";
 import { Grid, Typography, makeStyles } from "@material-ui/core";
+import "../Team.css";
 const useStyles = makeStyles((theme) => ({
   root: {
     padding: "60px 0px 10px 0px ",
