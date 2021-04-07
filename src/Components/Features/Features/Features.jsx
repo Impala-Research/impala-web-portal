@@ -4,7 +4,7 @@ import Benefits from "../../../SharedComponents/Benefits/Beneftis";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    padding: "100px 0px 100px 0px ",
+    padding: "130px 0px 120px 0px ",
     backgroundColor: "#F9F1E9",
   },
   paper: {
