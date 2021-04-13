@@ -35,6 +35,9 @@ const useStyles = makeStyles((theme) => ({
   links: {
     fontSize: "12px",
     marginRight: "20px",
+    "&:active": {
+      color: " red",
+    },
     color: "#707070",
   },
 }));
