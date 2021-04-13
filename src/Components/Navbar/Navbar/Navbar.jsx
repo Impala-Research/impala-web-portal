@@ -35,11 +35,13 @@ const useStyles = makeStyles((theme) => ({
   links: {
     fontSize: "12px",
     marginRight: "20px",
-    "&:active": {
-      color: " red",
-    },
+    // "&:active": {
+    //   color: " red",
+    // },
     color: "#707070",
   },
+ 
+  
 }));
 
 const Header = (props) => {
@@ -131,11 +133,11 @@ const Header = (props) => {
               </Menu>
             </>
           ) : (
-            <Typography className={classes.links}>
-              <Link className={classes.links} to="/">
+            <Typography className={classes.links} selected>
+              <Link selected className={classes.links} to="/">
                 Home
               </Link>
-              <Link className={classes.links} to="/Services">
+              <Link selected className={classes.links} to="/Services">
                 Services
               </Link>
               <Link className={classes.links} to="/Features">

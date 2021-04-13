@@ -14,6 +14,8 @@ const useStyles = makeStyles((theme) => ({
   typography2: {
     paddingTop: "120px",
   },
+
+ 
 }));
 
 export default function Section5() {

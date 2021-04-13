@@ -27,6 +27,14 @@ const useStyles = makeStyles({
   paper: {
     margin: "16px",
   },
+  BtnColor: {
+    backgroundColor: "#FFFFFF",
+    color: "#5c42ba",
+    "&:hover": {
+      color: " white",
+      Backgorundcolor: " #5c42ba",
+    },
+  },
 });
 
 export default function ServicesCard(props) {
@@ -43,8 +51,8 @@ export default function ServicesCard(props) {
           <Typography className={classes.pos}>{props.text}</Typography>
         </CardContent>
         <Link to="/Services">
-          <Button color="secondary" variant="contained">
-            How it works ?
+          <Button className={classes.BtnColor} variant="contained">
+            How it works
           </Button>
         </Link>
       </Card>

@@ -10,7 +10,7 @@ import "./Home.css";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    padding: "280px 0px 280px 0px ",
+    padding: "260px 0px 260px 0px ",
     backgroundColor: "#F9F1E9",
     display: "grid",
     justifyContent: "center",
@@ -50,7 +50,7 @@ export default function Home() {
           </Grid>
           <Grid item xs={12} sm={8}>
             <Paper className={classes.paper}>
-              <Typography color="secondary">
+              <Typography variant="subtitle1" color="secondary">
                 Impala is the first neuromarketing DIY platform that enables you
                 to gain a deep understanding of human behavior. It provides you
                 with out of the box data to take your marketing strategy to the

@@ -1,3 +1,9 @@
+@media only screen and (max-width: 1600px) {
+  .makeStyles-root-7 {
+    padding: 180px 0px 180px 0px !important;
+  }
+}
+
 @media only screen and (max-width: 1400px) {
   .makeStyles-border-20 {
     padding-top: 40px !important;
@@ -13,76 +19,48 @@
     padding: 60px 0px 0px 0px !important ;
   }
 
-  .jss6 {
-    padding: 60px 0px 0px 0px !important ;
-  }
   .makeStyles-root-20 {
     padding: 0px 0px 0px 0px !important ;
   }
-  .jss20 {
-    padding: 0px 0px 0px 0px !important ;
-  }
+
   .makeStyles-border-17 {
     padding-top: 40px !important;
     padding-bottom: 50px !important;
   }
-  .jss17 {
-    padding-top: 40px !important;
-    padding-bottom: 50px !important;
-  }
+
   .makeStyles-root-18 {
     padding: 60px 0px 125px 0px;
   }
-  .jss18 {
-    padding: 60px 0px 125px 0px;
-  }
+
   .makeStyles-root-12 {
     padding: 50px 0px 5px 0px !important;
   }
-  .jss12 {
-    padding: 50px 0px 5px 0px !important;
-  }
+
   .makeStyles-root-24 {
     padding: 51px 0px 0px 0px !important;
   }
-  .jss24 {
-    padding: 51px 0px 0px 0px !important;
-  }
+
   .makeStyles-typography1-25 {
     padding-bottom: 42px !important;
   }
-  .jss25 {
-    padding-bottom: 42px !important;
-  }
+
   .makeStyles-root-33 {
     margin-bottom: 28px !important;
   }
-  .jss33 {
-    margin-bottom: 28px !important;
-  }
+
   .makeStyles-root-31 {
     padding: 96px 0px 97px 0px !important;
   }
-  .jss31 {
-    padding: 96px 0px 97px 0px !important;
-  }
+
   .makeStyles-paper-32 {
     margin-top: 10px !important;
   }
-  .jss32 {
-    margin-top: 10px !important;
+  .makeStyles-root-23 {
+    padding: 0px 0px 0px 0px !important;
   }
+
   .makeStyles-img-33 {
     width: 40% !important;
     height: 47px !important;
-  }
-  .jss33 {
-    width: 40% !important;
-    height: 47px !important;
-  }
-}
-@media only screen and (max-width: 1600px) {
-  .makeStyles-root-7 {
-    padding: 180px 0px 180px 0px !important;
   }
 }

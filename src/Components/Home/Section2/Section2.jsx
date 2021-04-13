@@ -27,9 +27,13 @@ const useStyles = makeStyles((theme) => ({
   },
   BtnColor: {
     backgroundColor: "#F4E3D4",
+    color: "#5c42ba",
+    "&:hover": {
+      color: " white",
+    },
   },
   fontSize: {
-    fontSize: "20px",
+    fontSize: "26px",
   },
 }));
 const Section2 = (props) => {

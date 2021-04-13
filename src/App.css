@@ -7,12 +7,14 @@ a {
 a:hover {
   color: #5c42ba;
 }
-a:active {
-  color: red;
-}
+
 li {
   color: #707070;
 }
-.makeStyles-links-6 :active:any-link {
-  color: red !important;
+.makeStyles-links-6.Mui-selected {
+  color: #5c42ba !important;
 }
+a.Mui-selected {
+  color: #5c42ba !important;
+}
+
