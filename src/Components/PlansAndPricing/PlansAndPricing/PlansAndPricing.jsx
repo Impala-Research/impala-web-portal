@@ -39,14 +39,12 @@ export default function PlansAndPricing() {
         </Grid>
         <Grid item xs={12} sm={6}>
           <Paper className={classes.paper}>
-            <Typography color="secondary">
-              <p>
-                We offer packages based on customer segment. Each package
-                includes a certain number of licenses as well a maximum number
-                of respondents. In case you have any questions or none of our
-                packages fit your current needs, contact us – we are happy to
-                find a solution together!
-              </p>
+            <Typography variant="subtitle1" color="secondary">
+              We offer packages based on customer segment. Each package includes
+              a certain number of licenses as well a maximum number of
+              respondents. In case you have any questions or none of our
+              packages fit your current needs, contact us – we are happy to find
+              a solution together!
             </Typography>
           </Paper>
         </Grid>

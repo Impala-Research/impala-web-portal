@@ -20,6 +20,7 @@ const theme = createMuiTheme({
     MuiButton: {
       variant: "contained",
       color: "primary",
+      textTransform: "none",
     },
   },
   shape: {

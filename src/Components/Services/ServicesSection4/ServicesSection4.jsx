@@ -4,7 +4,6 @@ import EyeImage from "../../../Assets/Eye-img.png";
 import BgImage from "../../../../src/Assets/Background-Image.png";
 const useStyles = makeStyles((theme) => ({
   root: {
-   
     textAlign: "left",
     display: "grid",
     justifyContent: "center",
@@ -20,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
     paddingBottom: "16px",
   },
   typography1: {
-    color: "black",
+    fontSize:"19px"
   },
 }));
 
@@ -52,11 +51,7 @@ export default function ServicesSection4(props) {
             >
               {props.title}
             </Typography>
-            <Typography
-              className={classes.typography1}
-              variant="body1"
-              color="secondary"
-            >
+            <Typography className={classes.typography1} color="secondary">
               {props.text}
             </Typography>
           </Grid>

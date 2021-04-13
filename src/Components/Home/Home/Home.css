@@ -13,7 +13,7 @@
     padding: 50px 0px 0px 0px !important;
   }
   .makeStyles-root-7 {
-    padding: 100px 0px 100px 0px !important;
+    padding: 0px 0px 0px 0px !important;
   }
   .makeStyles-root-6 {
     padding: 60px 0px 0px 0px !important ;
@@ -62,5 +62,13 @@
   .makeStyles-img-33 {
     width: 40% !important;
     height: 47px !important;
+  }
+  .makeStyles-img-37 {
+    width: 33% !important;
+    height: 60px !important;
+    padding: 10px !important;
+  }
+  .makeStyles-img-44 {
+    width: 20% !important;
   }
 }

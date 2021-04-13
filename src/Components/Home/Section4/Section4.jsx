@@ -14,6 +14,9 @@ const useStyles = makeStyles((theme) => ({
     color: theme.palette.text.secondary,
     boxShadow: "none",
   },
+  title: {
+    paddingBottom: "90px",
+  },
 }));
 
 export default function Section4() {
@@ -93,7 +96,7 @@ export default function Section4() {
     <div className={classes.root}>
       <Grid container>
         <Grid item xs={12}>
-          <Typography variant="h4" color="primary">
+          <Typography className={classes.title} variant="h4" color="primary">
             How you Benefit ?
           </Typography>
         </Grid>

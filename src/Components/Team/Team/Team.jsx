@@ -57,7 +57,7 @@ export default function Team() {
           </Grid>
           <Grid item xs={12} sm={6}>
             <Paper className={classes.paper}>
-              <Typography color="secondary">
+              <Typography variant="subtitle1" color="secondary">
                 As diverse as consumer behavior can be, as diverse is our team.
                 We are team of psychologists, ICT experts, experts in
                 bioinformatics as well as evolution psychology, data management,
@@ -86,7 +86,7 @@ export default function Team() {
           <Grid item xs={12} sm={6}>
             <Paper className={classes.paper}>
               {" "}
-              <Typography variant="h6" color="primary">
+              <Typography variant="h5" color="primary">
                 Meet our team here and learn about how they drive IMPALA:
               </Typography>
             </Paper>

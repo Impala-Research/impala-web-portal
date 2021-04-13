@@ -41,7 +41,7 @@ export default function Section5() {
         <Grid item xs={12} sm={4} lg={2}>
           <ServicesCard
             title="Eye Tracking"
-            text="Eye Tracking is a technology that allows you to understand what a person is really looking at while watching advertising, viewing design layouts, browsing a website, etc. It is the most objective method to...........................
+            text="Eye Tracking is a technology that allows you to understand what a person is really looking at while watching advertising, viewing design layouts, browsing a website, etc. It is the most objective method to...
 "
           />
         </Grid>

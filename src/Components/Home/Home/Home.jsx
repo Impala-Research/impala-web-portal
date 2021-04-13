@@ -69,7 +69,7 @@ export default function Home() {
           <Grid item xs={12} sm={8}>
             <Paper className={classes.paper}>
               <Link to="/Features">
-                <Button>Find out how</Button>
+                <Button> Find out how</Button>
               </Link>
             </Paper>
           </Grid>

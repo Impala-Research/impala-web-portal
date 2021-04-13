@@ -40,7 +40,7 @@ export default function ServicesSection3(props) {
         </Grid>
         <Grid item xs={12} sm={10}>
           <Paper className={classes.paper}>
-            <Typography color="secondary">{props.text}</Typography>
+            <Typography   variant="subtitle1" color="secondary">{props.text}</Typography>
           </Paper>
         </Grid>
         <Grid item xs={12} sm={1}>

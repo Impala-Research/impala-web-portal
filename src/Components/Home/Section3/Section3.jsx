@@ -23,6 +23,7 @@ const useStyles = makeStyles((theme) => ({
     borderRadius: "10px",
   },
   BtnColor: {
+  
     backgroundColor: "#F4E3D4",
     color: "#5c42ba",
     "&:hover": {

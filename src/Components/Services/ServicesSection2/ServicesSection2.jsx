@@ -34,7 +34,7 @@ export default function ServicesSection2a(props) {
             >
               {props.title}
             </Typography>
-            <Typography className={classes.typography} color="secondary">
+            <Typography   variant="subtitle1" className={classes.typography} color="secondary">
               {props.text}
             </Typography>
           </Paper>

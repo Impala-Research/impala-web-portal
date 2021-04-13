@@ -30,7 +30,7 @@ export default function ServicesSection5(props) {
         </Typography>
         <Typography
           className={classes.typography1}
-          variant="body1"
+          variant="subtitle1"
           color="secondary"
         >
           {props.text}
@@ -40,8 +40,7 @@ export default function ServicesSection5(props) {
         </Typography>
         <Typography
           className={classes.typography1}
-          variant="body1"
-          z
+          variant="subtitle1"
           color="secondary"
         >
           {props.text1}

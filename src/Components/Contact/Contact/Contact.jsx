@@ -11,12 +11,12 @@ import {
 const useStyles = makeStyles((theme) => ({
   root: {
     padding: "160px 0px 160px 0px ",
-    backgroundColor: "#F9F1E9",
+    backgroundColor: "white",
   },
   paper: {
     textAlign: "left",
     padding: theme.spacing(2),
-    backgroundColor: "#F9F1E9",
+    backgroundColor: "white",
     boxShadow: "none",
   },
   typography: {
@@ -30,7 +30,7 @@ export default function Contact() {
   return (
     <div className={classes.root}>
       <Grid container>
-        <Grid item xs={12} sm={3}>
+        <Grid item xs={12} sm={4}>
           <Paper></Paper>
         </Grid>
         <Grid item xs={12} sm={3}>

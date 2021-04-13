@@ -27,6 +27,9 @@ const useStyles = makeStyles((theme) => ({
     width: "100%",
     height: "auto",
   },
+  text: {
+    fontSize: "18px",
+  },
 }));
 
 export default function ServicesSection1(props) {
@@ -44,7 +47,7 @@ export default function ServicesSection1(props) {
             >
               {props.title}
             </Typography>
-            <Typography variant="body1" color="secondary">
+            <Typography className={classes.text} color="secondary">
               {props.text}
             </Typography>
           </Paper>
