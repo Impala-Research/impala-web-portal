@@ -19,9 +19,7 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     textAlign: "center",
   },
-  logo:{
-    width:"30%"
-  }
+
 }));
 
 function Copyright() {
