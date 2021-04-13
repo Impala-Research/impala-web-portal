@@ -6,5 +6,7 @@
     height: 455px !important;
     padding: 30px !important;
   }
-
+  .makeStyles-pos-32 {
+    font-size: 15px !important;
+  }
 }

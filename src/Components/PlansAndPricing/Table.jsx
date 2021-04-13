@@ -11,12 +11,11 @@ import Paper from "@material-ui/core/Paper";
 
 const useStyles = makeStyles({
   table: {
-    minWidth: 650,
     padding: "50px",
   },
- div:{
-   paddingBottom:"20px"
- }
+  div: {
+    paddingBottom: "20px",
+  },
 });
 
 function createData(NoOfRespondents, OneModule, AllModules) {
@@ -37,16 +36,16 @@ export default function BasicTable() {
   return (
     <TableContainer className={classes.table} component={Paper}>
       <div className={classes.div}>
-      <Typography variant="h5" color="primary">
-        Enterprises
-      </Typography>
-      <Typography
-        className={classes.typography}
-        variant="body"
-        color="secondary"
-      >
-        Just select your most appropriate option
-      </Typography>
+        <Typography variant="h5" color="primary">
+          Enterprises
+        </Typography>
+        <Typography
+          className={classes.typography}
+          variant="body"
+          color="secondary"
+        >
+          Just select your most appropriate option
+        </Typography>
       </div>
 
       <Table className={classes.table} aria-label="simple table">
