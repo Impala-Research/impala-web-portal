@@ -16,7 +16,7 @@ const useStyles = makeStyles({
     paddingBottom: "45px",
   },
   img: {
-    width: "30%",
+    width: "35%",
     height: "auto",
     borderRadius: "10px",
   },
