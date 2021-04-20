@@ -40,8 +40,6 @@ const useStyles = makeStyles((theme) => ({
     // },
     color: "#707070",
   },
- 
-  
 }));
 
 const Header = (props) => {

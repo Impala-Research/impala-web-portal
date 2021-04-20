@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid, Paper, Typography, makeStyles } from "@material-ui/core";
 import Benefits from "../../../SharedComponents/Benefits/Beneftis";
-
+import "../Home/Home.css";
 const useStyles = makeStyles((theme) => ({
   root: {
     padding: "125px 0px 125px 0px ",

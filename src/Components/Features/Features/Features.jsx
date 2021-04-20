@@ -5,7 +5,7 @@ import Benefits from "../../../SharedComponents/Benefits/Beneftis";
 const useStyles = makeStyles((theme) => ({
   root: {
     padding: "130px 0px 120px 0px ",
-    backgroundColor: "#FFFFFF",
+    backgroundColor: "#f9dbc4",
   },
   root1: {
     padding: "130px 0px 120px 0px ",
@@ -14,14 +14,14 @@ const useStyles = makeStyles((theme) => ({
   paper: {
     textAlign: "left",
     padding: theme.spacing(2),
-    backgroundColor: "#FFFFFF",
+    backgroundColor: "#f9dbc4",
     boxShadow: "none",
   },
   paper1: {
     paddingBottom: "30px",
     textAlign: "center",
     padding: theme.spacing(2),
-    backgroundColor: "#FFFFFF",
+    backgroundColor: "#f9dbc4",
     boxShadow: "none",
   },
   paper2: {

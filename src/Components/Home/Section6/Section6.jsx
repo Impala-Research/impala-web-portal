@@ -18,8 +18,8 @@ const useStyles = makeStyles((theme) => ({
     boxShadow: "none",
   },
   img: {
-    width: "50%",
-    height: "50px",
+    width: "auto",
+    height: "50px"
   },
 }));
 

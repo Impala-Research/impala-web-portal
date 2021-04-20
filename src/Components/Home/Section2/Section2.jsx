@@ -26,7 +26,6 @@ const useStyles = makeStyles((theme) => ({
     textAlign: "left",
   },
   BtnColor: {
-
     backgroundColor: "#F4E3D4",
     color: "#5c42ba",
     "&:hover": {
