@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid, Button, Paper, Typography, makeStyles } from "@material-ui/core";
-import GirlImage from "../../../Assets/Girl-img.png";
+import GirlImage from "../../../Assets/Images/Girl-img.png";
 import { Link } from "react-router-dom";
 import "../Home/Home.css";
 

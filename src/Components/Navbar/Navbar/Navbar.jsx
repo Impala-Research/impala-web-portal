@@ -9,7 +9,7 @@ import MenuItem from "@material-ui/core/MenuItem";
 import Menu from "@material-ui/core/Menu";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
 import { withRouter } from "react-router-dom";
-import logo from "../../../Assets/Logo-img.png";
+import logo from "../../../Assets/Images/Logo-img.png";
 import { Link } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({

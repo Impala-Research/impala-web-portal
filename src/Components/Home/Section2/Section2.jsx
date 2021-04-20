@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid, Button, Paper, Typography, makeStyles } from "@material-ui/core";
-import ImpalaImage from "../../../Assets/Impala-Img.png";
+import ImpalaImage from "../../../Assets/Images/Impala-Img.png";
 import { Link } from "react-router-dom";
 import "../Home/Home.css";
 

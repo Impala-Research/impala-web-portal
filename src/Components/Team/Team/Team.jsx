@@ -1,12 +1,12 @@
 import React from "react";
 import { Grid, Paper, Typography, makeStyles } from "@material-ui/core";
 import Member from "./Member/Member";
-import Vesna from "../../../Assets/vesna-kuzmanovic.png";
-import Tamara from "../../../Assets/Tamara.png";
-import Ognen from "../../../Assets/ognen-spasovski-image.png";
-import Igor from "../../../Assets/igor@2x.png";
-import Ljupco from "../../../Assets/ljupco-kocarev-image.png";
-import Dragan from "../../../Assets/Dragan.png";
+import Vesna from "../../../Assets/Images/vesna-kuzmanovic.png";
+import Tamara from "../../../Assets/Images/Tamara.png";
+import Ognen from "../../../Assets/Images/ognen-spasovski-image.png";
+import Igor from "../../../Assets/Images/igor@2x.png";
+import Ljupco from "../../../Assets/Images/ljupco-kocarev-image.png";
+import Dragan from "../../../Assets/Images/Dragan.png";
 import "./Team.css";
 
 const useStyles = makeStyles((theme) => ({
