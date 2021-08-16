@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Paper, Typography, makeStyles } from "@material-ui/core";
+import { Button, Grid, Paper, Typography, makeStyles } from "@material-ui/core";
 import EyeImage from "../../Assets/Images/Eye-img.png";
 import "../../../src/Components/Home/Home/Home.css";
 
@@ -44,6 +44,7 @@ export default function Benefits(props) {
             <Typography variant="subtitle1" color="secondary">
               {props.text}
             </Typography>
+           
           </Paper>
         </Grid>
       </Grid>
